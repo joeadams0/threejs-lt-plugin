@@ -30,7 +30,7 @@
     (.-domElement (get-renderer))))
 
 (object/object* ::threejs.tab
-                :tags [:threejs.hello]
+                :tags [:threejs.tab]
                 :behaviors [::on-close-destroy ::on-show]
                 :name "threejs"
                 :init (fn [this]

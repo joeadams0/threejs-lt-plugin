@@ -27,11 +27,11 @@ lt.plugins.threejs.create_threejs = (function create_threejs(){var Renderer = TH
 lt.plugins.threejs.get_renderer.call(null).setSize("300","300");
 return lt.plugins.threejs.get_renderer.call(null).domElement;
 });
-lt.object.object_STAR_.call(null,new cljs.core.Keyword("lt.plugins.threejs","threejs.tab","lt.plugins.threejs/threejs.tab",769779641),new cljs.core.Keyword(null,"tags","tags",1017456523),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"threejs.hello","threejs.hello",3101381373)], null),new cljs.core.Keyword(null,"behaviors","behaviors",607554515),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("lt.plugins.threejs","on-close-destroy","lt.plugins.threejs/on-close-destroy",4144674088),new cljs.core.Keyword("lt.plugins.threejs","on-show","lt.plugins.threejs/on-show",3230811804)], null),new cljs.core.Keyword(null,"name","name",1017277949),"threejs",new cljs.core.Keyword(null,"init","init",1017141378),(function (this$){return lt.plugins.threejs.create_threejs.call(null);
+lt.object.object_STAR_.call(null,new cljs.core.Keyword("lt.plugins.threejs","threejs.tab","lt.plugins.threejs/threejs.tab",769779641),new cljs.core.Keyword(null,"tags","tags",1017456523),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"threejs.tab","threejs.tab",2388153344)], null),new cljs.core.Keyword(null,"behaviors","behaviors",607554515),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("lt.plugins.threejs","on-close-destroy","lt.plugins.threejs/on-close-destroy",4144674088),new cljs.core.Keyword("lt.plugins.threejs","on-show","lt.plugins.threejs/on-show",3230811804)], null),new cljs.core.Keyword(null,"name","name",1017277949),"threejs",new cljs.core.Keyword(null,"init","init",1017141378),(function (this$){return lt.plugins.threejs.create_threejs.call(null);
 }));
-lt.plugins.threejs.__BEH__on_close_destroy = (function __BEH__on_close_destroy(this$){var temp__4092__auto___7896 = new cljs.core.Keyword("lt.objs.tabs","tabset","lt.objs.tabs/tabset",3378091779).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,this$));if(cljs.core.truth_(temp__4092__auto___7896))
-{var ts_7897 = temp__4092__auto___7896;if(cljs.core._EQ_.call(null,cljs.core.count.call(null,new cljs.core.Keyword(null,"objs","objs",1017308622).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ts_7897))),1))
-{lt.objs.tabs.rem_tabset.call(null,ts_7897);
+lt.plugins.threejs.__BEH__on_close_destroy = (function __BEH__on_close_destroy(this$){var temp__4092__auto___7898 = new cljs.core.Keyword("lt.objs.tabs","tabset","lt.objs.tabs/tabset",3378091779).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,this$));if(cljs.core.truth_(temp__4092__auto___7898))
+{var ts_7899 = temp__4092__auto___7898;if(cljs.core._EQ_.call(null,cljs.core.count.call(null,new cljs.core.Keyword(null,"objs","objs",1017308622).cljs$core$IFn$_invoke$arity$1(cljs.core.deref.call(null,ts_7899))),1))
+{lt.objs.tabs.rem_tabset.call(null,ts_7899);
 } else
 {}
 } else

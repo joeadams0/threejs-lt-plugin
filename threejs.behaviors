@@ -1,2 +1,3 @@
 {:+ {:app [(:lt.objs.plugins/load-js "threejs_compiled.js")]
-     :threejs.hello [:lt.plugins.threejs/on-close-destroy]}}
+     :threejs.tab [:lt.plugins.threejs/on-close-destroy
+                   :lt.plugins.threejs/on-show]}}
