@@ -8,5 +8,5 @@ A LightTable plugin designed to create an instance of a ThreeJS WebGLRenderer in
 ```
 (ns threejs.example
   (:require [lt.plugins.threejs :as threejs]))
-(threejs/get-renderer) => *Returns renderer instance* 
+(threejs/get-renderer) => Returns renderer instance
 ```
